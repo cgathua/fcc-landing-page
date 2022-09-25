@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Project</title>
+
+    <!--STYLESHEET AND FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4a00a82b9f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main id="main">
+        <header id="header">
+            <img src="https://cdn-icons-png.flaticon.com/512/1216/1216857.png" alt="logo" id="header-img">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#promo" class="nav-link">Promo</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="subscribe">
+            <h2> Mailing List</h2>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+               <input type="email" id="email" name="email" placeholder="Enter your email" required>
+               <input type="submit" id="submit" value="subscribe">
+            </form>
+        </section>
+        <section id="about">
+            <div class="about-wrapper">
+                <div class="about-icon">
+                    <i class="fa-solid fa-plane-departure fa-2xl"></i>
+                </div>
+                <article class="about-text">
+                    <h2>Travel Agency</h2>
+                    <p>We specialize in providing value and connecting travellers across the world, with hotels and flights at the last minute.</p>
+                </article>
+            </div>
+            <div class="about-wrapper">
+                <div class="about-icon">
+                    <i class="fa-solid fa-money-check-dollar fa-2xl"></i>
+                </div>
+                <article class="about-text">
+                    <h2>Refunds</h2>
+                    <p>Cancellations and Refunds are also handled by us, without you dealing with the Service Provider.</p>
+                </article>
+            </div>
+            <div class="about-wrapper">
+                <div class="about-icon">
+                    <i class="fa-solid fa-map-location-dot fa-2xl"></i>
+                </div>
+                <article class="about-text">
+                    <h2>Application</h2>
+                    <p>Download our App on the App Store, for navigation worldwide.</p>
+                </article>
+            </div>
+        </section>
+        <section id="promo">
+            <iframe id="video" src="https://www.youtube.com/embed/UbCHJU3TLjg"></iframe>
+        </section>
+        <section id="pricing">
+            <div class="pricing-wrapper">
+                <div class="pricing-box">
+                    <h2>HOTEL</h2>
+                    <p class="price">$99</p>
+                    <p>Daily flat rate</p>
+                    <p>No cancellation penalty</p>
+                    <a href="#" class="btn">Select</a>
+                </div>
+                <div class="pricing-box">
+                    <h2>HELICOPTER</h2>
+                    <p class="price">$499</p>
+                    <p>City Tour</p>
+                    <p>No cancellation penalty</p>
+                    <a href="#" class="btn">Select</a>
+                </div>
+                <div class="pricing-box">
+                    <h2>AIRLINE</h2>
+                    <p class="price">$999</p>
+                    <p>Economy Class</p>
+                    <p>No cancellation penalty</p> 
+                    <a href="#" class="btn">Select</a>
+                </div>
+            </div>  
+        </section>
+        <footer id="footer">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <p>*No such company exists</p>
+        </footer>
+    </main>   
+</body>
+</html>
